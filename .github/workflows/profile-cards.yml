@@ -17,12 +17,16 @@ jobs:
       # senza checkout l'action non ha un repo git in cui committare (exit 128)
       - uses: actions/checkout@v4
 
-      # genera le card come SVG e le committa sul branch `profile-summary-cards-output`,
-      # cosi' il README non dipende da un servizio esterno che puo' andare giu'
+      # genera le card come SVG e le committa su un branch dedicato, cosi' il
+      # README non dipende da un servizio esterno che puo' andare giu' e `main`
+      # resta pulito (README + workflow, niente altro)
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH: profile-summary-cards-output
+          BRANCH_NAME: profile-summary-cards-output
+          THEME: tokyonight          # senza questo genera tutti i ~50 temi
+          ANIMATION: rise
+          NAME: Federico Fassio
           UTC_OFFSET: 2
