@@ -14,6 +14,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # senza checkout l'action non ha un repo git in cui committare (exit 128)
+      - uses: actions/checkout@v4
+
       # genera le card come SVG e le committa sul branch `profile-summary-cards-output`,
       # cosi' il README non dipende da un servizio esterno che puo' andare giu'
       - uses: vn7n24fzkq/github-profile-summary-cards@release
