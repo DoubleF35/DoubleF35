@@ -12,9 +12,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # l'action fa `git push` sul branch che trova nel workspace, NON su
-      # BRANCH_NAME: va quindi checkoutato direttamente il branch di output,
-      # altrimenti le card finiscono su main. Senza checkout fallisce (exit 128).
+      # the action runs `git push` on whatever branch is in the workspace, NOT
+      # on BRANCH_NAME: so the output branch must be checked out directly, or
+      # the cards land on main. Without a checkout at all it fails (exit 128).
       - uses: actions/checkout@v4
         with:
           ref: profile-summary-cards-output
@@ -25,7 +25,7 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: profile-summary-cards-output
-          THEME: tokyonight          # senza questo genera tutti i ~50 temi
+          THEME: tokyonight          # without this it generates all ~50 themes
           ANIMATION: rise
           NAME: Federico Fassio
           UTC_OFFSET: 2

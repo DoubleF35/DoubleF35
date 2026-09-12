@@ -2,7 +2,7 @@ name: snake
 
 on:
   schedule:
-    # 05:00 UTC, ~1h dopo il commit di `daily` cosi' il serpente lo vede gia'
+    # 05:00 UTC, ~1h after the `daily` commit so the snake already sees it
     - cron: '0 5 * * *'
   workflow_dispatch:
   push:
@@ -15,7 +15,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Genera l'animazione dal contribution graph
+      - name: Generate the animation from the contribution graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -23,9 +23,9 @@ jobs:
             dist/snake.svg?palette=github-light
             dist/snake-dark.svg?palette=github-dark
 
-      # le SVG finiscono su un branch dedicato `output`, non su main:
-      # il README le linka via raw.githubusercontent.com
-      - name: Pubblica sul branch output
+      # the SVGs go to a dedicated `output` branch, not to main:
+      # the README links them via raw.githubusercontent.com
+      - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

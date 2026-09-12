@@ -8,40 +8,41 @@
 
 <br />
 
-<a href="https://doublef35.github.io"><img src="https://img.shields.io/badge/Sito-doublef35.github.io-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
+<a href="https://doublef35.github.io"><img src="https://img.shields.io/badge/Website-doublef35.github.io-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
 <img src="https://komarev.com/ghpvc/?username=DoubleF35&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="profile views" />
 
 </div>
 
 ---
 
-## Ciao 👋
+## Hey 👋
 
-Faccio cose che volano, cose che prevedono e cose che finiscono in produzione.
-Mi muovo tra **aerospazio**, **machine learning applicato** e **prodotti costruiti da zero** — quasi sempre partendo da un problema fisico vero e finendo con qualcosa che gira.
+I build things that fly, things that predict, and things that ship.
+I work across **aerospace**, **applied machine learning** and **products built from scratch** —
+usually starting from a real physical problem and ending with something that runs.
 
 ```python
 federico = {
     "location":  "Torino, IT",
-    "focus":     ["onboard ML", "SAR", "simulazione"],
+    "focus":     ["onboard ML", "SAR", "simulation"],
     "stack":     ["Python", "PyTorch", "ONNX", "React"],
-    "currently": "segmentare ghiaccio marino dentro un satellite",
-    "fun_fact":  "i miei razzi ad acqua hanno un simulatore serio",
+    "currently": "segmenting sea ice inside a satellite",
+    "fun_fact":  "my water rockets have a serious simulator",
 }
 ```
 
 ---
 
-## 🛠️ Progetti in evidenza
+## 🛠️ Featured projects
 
-| | Progetto | Cosa fa |
+| | Project | What it does |
 |:-:|:--|:--|
-| 🛰️ | **IceRoute** | Segmentazione del ghiaccio marino **a bordo satellite**. Un modello INT8 gira su immagini SAR Sentinel-1, produce la ice mask, calcola la rotta artica ottimale entro i limiti POLARIS — e downlinka solo mask + rotta invece della scena grezza. |
-| 📡 | **[CubeSAR](https://github.com/DoubleF35/CubeSAR)** | Un CubeSat da scrivania che riprende ciò che ha intorno con radar ad apertura sintetica: lo stesso principio di Sentinel-1, in scala da tavolo. |
-| 🚀 | **[waterrocketsim](https://github.com/DoubleF35/waterrocketsim)** | Il simulatore di razzi ad acqua più completo sul web. Progetti il razzo, lanci la simulazione. |
-| 🧠 | **[afterword](https://github.com/DoubleF35/afterword)** | Parla con qualcuno dalla tua cronologia di messaggi, con la sua voce. Gli dai un export WhatsApp e continui la conversazione — stile e memoria, senza fine-tuning. |
-| 🌱 | **[YET](https://github.com/DoubleF35/yet)** · **[EdUnity](https://github.com/DoubleF35/EdUnity)** | La community dei giovani builder di Torino, e una startup nata tra studenti per rendere lo studio più efficace — con focus su DSA e studenti-atleti. |
-| 🗺️ | **[unsited](https://github.com/DoubleF35/unsited)** | Trova sulla mappa le attività locali che non hanno un sito. Prospecting tool interamente client-side su Google Maps. |
+| 🛰️ | **IceRoute** | Sea ice segmentation **onboard the satellite**. An INT8 model runs on Sentinel-1 SAR imagery, produces the ice mask, computes the optimal Arctic route within POLARIS operational limits — and downlinks only mask + route instead of the raw scene. |
+| 📡 | **[CubeSAR](https://github.com/DoubleF35/CubeSAR)** | A desk-sized CubeSat that images its surroundings using synthetic aperture radar: the same principle as Sentinel-1, scaled down to a tabletop. |
+| 🚀 | **[waterrocketsim](https://github.com/DoubleF35/waterrocketsim)** | The most complete water rocket simulator on the web. Design your rocket, run the simulation. |
+| 🧠 | **[afterword](https://github.com/DoubleF35/afterword)** | Chat with someone from your message history, in their voice. Feed it a WhatsApp export and keep talking — style and memory, no fine-tuning. |
+| 🌱 | **[YET](https://github.com/DoubleF35/yet)** · **[EdUnity](https://github.com/DoubleF35/EdUnity)** | The community of young builders in Torino, and a student-founded startup making studying more effective — focused on students with learning differences and student-athletes. |
+| 🗺️ | **[unsited](https://github.com/DoubleF35/unsited)** | Find local businesses with no website, on the map. A fully client-side prospecting tool built on Google Maps. |
 
 ---
 
@@ -54,7 +55,7 @@ federico = {
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**ML & dati**
+**ML & data**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
@@ -79,7 +80,7 @@ federico = {
 
 ---
 
-## 📊 Numeri
+## 📊 By the numbers
 
 <div align="center">
 
@@ -87,19 +88,19 @@ federico = {
 
 <br />
 
-<img height="195" src="https://streak-stats.demolab.com/?user=DoubleF35&hide_border=true&theme=tokyonight&date_format=j%20M%5B%20Y%5D" alt="streak" />
-<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="quando committo" />
+<img height="195" src="https://streak-stats.demolab.com/?user=DoubleF35&hide_border=true&theme=tokyonight&date_format=j%20M%5B%20Y%5D" alt="contribution streak" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="when I commit" />
 
 <br />
 
-<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repo per linguaggio" />
-<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="linguaggi per commit" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="languages by commit" />
 
 </div>
 
 ---
 
-## 🐍 Il serpente si mangia i miei commit
+## 🐍 The snake eats my commits
 
 <div align="center">
 
