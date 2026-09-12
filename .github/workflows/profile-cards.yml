@@ -1,0 +1,25 @@
+name: profile-cards
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # genera le card come SVG e le committa sul branch `profile-summary-cards-output`,
+      # cosi' il README non dipende da un servizio esterno che puo' andare giu'
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH: profile-summary-cards-output
+          UTC_OFFSET: 2

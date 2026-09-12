@@ -83,16 +83,17 @@ federico = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DoubleF35&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&hide=issues" alt="github stats" />
-<img height="165" src="https://streak-stats.demolab.com/?user=DoubleF35&hide_border=true&theme=tokyonight&date_format=j%20M%5B%20Y%5D" alt="streak" />
+<img src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details" />
 
-<br /><br />
+<br />
 
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DoubleF35&layout=compact&langs_count=8&count_private=true&hide_border=true&theme=tokyonight" alt="top languages" />
+<img height="195" src="https://streak-stats.demolab.com/?user=DoubleF35&hide_border=true&theme=tokyonight&date_format=j%20M%5B%20Y%5D" alt="streak" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="quando committo" />
 
-<br /><br />
+<br />
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DoubleF35&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repo per linguaggio" />
+<img height="195" src="https://raw.githubusercontent.com/DoubleF35/DoubleF35/profile-summary-cards-output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="linguaggi per commit" />
 
 </div>
 
