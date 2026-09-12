@@ -23,10 +23,10 @@ Mi muovo tra **aerospazio**, **machine learning applicato** e **prodotti costrui
 ```python
 federico = {
     "location":  "Torino, IT",
-    "focus":     ["onboard ML", "SAR & remote sensing", "simulation"],
+    "focus":     ["onboard ML", "SAR", "simulazione"],
     "stack":     ["Python", "PyTorch", "ONNX", "React"],
     "currently": "segmentare ghiaccio marino dentro un satellite",
-    "fun_fact":  "ho scritto un simulatore di razzi ad acqua piu' serio di quanto sembri",
+    "fun_fact":  "i miei razzi ad acqua hanno un simulatore serio",
 }
 ```
 
