@@ -15,7 +15,7 @@
 
 ---
 
-## Hey 👋
+## Hey 
 
 I build things that fly, things that predict, and things that ship.
 I work across **aerospace**, **applied machine learning** and **products built from scratch** —
@@ -33,7 +33,7 @@ federico = {
 
 ---
 
-## 🛠️ Featured projects
+## Featured projects
 
 | | Project | What it does |
 |:-:|:--|:--|
@@ -46,7 +46,7 @@ federico = {
 
 ---
 
-## 🧰 Stack
+## Stack
 
 **Core**
 
@@ -80,7 +80,7 @@ federico = {
 
 ---
 
-## 📊 By the numbers
+## By the numbers
 
 <div align="center">
 
@@ -100,7 +100,7 @@ federico = {
 
 ---
 
-## 🐍 The snake eats my commits
+## The snake eats my commits
 
 <div align="center">
 
