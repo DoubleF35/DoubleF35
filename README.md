@@ -8,7 +8,7 @@
 
 <br />
 
-<a href="https://federicofassio.it"><img src="https://img.shields.io/badge/Website-doublef35.github.io-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
+<a href="https://federicofassio.it"><img src="https://img.shields.io/badge/Website-federicofassio.it-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
 <img src="https://komarev.com/ghpvc/?username=DoubleF35&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="profile views" />
 
 </div>
