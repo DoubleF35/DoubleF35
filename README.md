@@ -8,7 +8,7 @@
 
 High school student at Liceo Scientifico Galileo Ferraris in Torino. I want to study aerospace engineering, and in the meantime I build the things I want to study.
 
-- Project Manager of the 6U CubeSat program at **Space Eagle**, a student rocketry and space association
+- Project Manager of the [CubeSar 6U](https://github.com/DoubleF35/CubeSAR) CubeSat program at **Space Eagle**, a student rocketry and space association
 - Co-founder of **YET (Young Entrepreneurs Together)**, a national community for builders aged 16-23
 - Co-founder and CTO of **EdUnity**, a study platform for students with learning disorders and student-athletes
 
@@ -17,6 +17,7 @@ High school student at Liceo Scientifico Galileo Ferraris in Torino. I want to s
 | Project | What it is |
 |:--|:--|
 | **IceRoute** (private) | Sea ice segmentation on board a satellite. An INT8 model runs on Sentinel-1 SAR images, makes the ice map and computes the Arctic route within POLARIS limits, so the satellite downlinks only the mask and the route instead of the full scene. Trained on the AI4Arctic dataset. |
+| **[CubeSar 6U](https://github.com/DoubleF35/CubeSAR)** | The 6U CubeSat of Space Eagle that carries IceRoute. Engineering prototype with 3-axis reaction wheel ADCS, ESP32-S3 + Raspberry Pi OBC, deployable solar wings and 10 custom PCBs designed in KiCad. I am the Project Manager. |
 | **[Seeker-II](https://github.com/DoubleF35/Seeker-II)** | Model rocket I designed and built: OpenRocket simulation, custom airframe (CAD on Thingiverse), ESP32-C3 flight computer with BMP280, MPU6050 and LoRa telemetry at 433 MHz. |
 | **[waterrocketsim](https://github.com/DoubleF35/waterrocketsim)** | Flight simulator for compressed-air water rockets that runs in the browser. You set bottle, water and pressure and see the full flight. [Try it](https://doublef35.github.io/waterrocketsim/). |
 | **[stasisproject](https://github.com/DoubleF35/stasisproject)** | CFD simulations and aerodynamic analysis for my rockets. |
